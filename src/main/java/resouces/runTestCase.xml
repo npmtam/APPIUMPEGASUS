@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Register and login test cases" parallel="false">
+
+    <test name="RUN ON CHROME UI">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="login.PAX_01_Register"/>
+            <class name="login.PAX_02_Login"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
